@@ -1,5 +1,5 @@
 #**📚 Library Management System (SQL)**
-
+---
 A structured and relational database project built using **SQL**, designed to manage a library system. It includes tables for books, authors, members, and loans — plus automated triggers and stored procedures for smart functionality.
 ---
 ##✨ Features
