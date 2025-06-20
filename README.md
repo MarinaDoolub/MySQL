@@ -1,8 +1,8 @@
-📚 Library Management System (SQL)
+#📚 Library Management System (SQL)
 
 A structured and relational database project built using **SQL**, designed to manage a library system. It includes tables for books, authors, members, and loans — plus automated triggers and stored procedures for smart functionality.
 
-✨ Features
+##✨ Features
 
 * ✅ **CRUD Operations**: Create, read, update, and delete records for books, members, and loans  
 * ✅ **Relational Integrity**: Foreign key constraints between tables (e.g., authors to books, books to loans)  
@@ -12,13 +12,13 @@ A structured and relational database project built using **SQL**, designed to ma
 * ✅ **Indexes**: Improve search performance on members' last names  
 * ✅ **Advanced Queries**: Subqueries, joins, wildcards, grouping with rollup, and filtering using `AND`, `OR`, `NOT`
 
-🛠️ Tech Stack
+##🛠️ Tech Stack
 
 * **Language**: SQL (MySQL syntax)
 * **Database Engine**: MySQL or compatible
 * **Tools Used**: MySQL Workbench / phpMyAdmin / command-line SQL client
 
-📦 Setup & Installation
+##📦 Setup & Installation
 
 1. **Clone the repository** (or copy the SQL file into your preferred SQL environment)
 
@@ -37,7 +37,7 @@ A structured and relational database project built using **SQL**, designed to ma
 
 > ✅ **Note**: Make sure your SQL engine supports triggers and stored procedures (MySQL 5.7+ recommended).
 
-🧠 How It Works
+##🧠 How It Works
 
 * Books and authors have a one-to-one relationship  
 * Members can borrow multiple books  
@@ -49,7 +49,7 @@ A structured and relational database project built using **SQL**, designed to ma
 * **View** `member_loan_count` shows how many books each member borrowed  
 * Sample queries demonstrate sorting, joins, wildcards, rollups, subqueries, and more
 
-📊 Database Tables
+##📊 Database Tables
 
 | Table     | Description                          |
 |-----------|--------------------------------------|
@@ -58,13 +58,13 @@ A structured and relational database project built using **SQL**, designed to ma
 | `Members` | Stores library member details        |
 | `Loans`   | Tracks borrowed books with dates     |
 
-🚀 Future Enhancements
+##🚀 Future Enhancements
 
 * Add fine tracking for late returns  
 * Include staff/admin table  
 * Build a frontend or API to interact with the database  
 * Implement borrowing limits per member  
 
-🤝 Contributing
+##🤝 Contributing
 
 Have suggestions or want to improve it? Contributions are welcome! Feel free to fork the repo or submit issues and pull requests.
